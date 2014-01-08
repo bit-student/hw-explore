@@ -1,0 +1,32 @@
+m255
+13
+cModel Technology
+d/home/gongchen/multiplier_test/pre_sim
+T_opt
+V0H`BzMUKlMX]fbL8X]E=G2
+04 2 4 work tb fast 0
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2e;35
+vmultiplier
+VadU<NA;8BKn1OoB3B:JN20
+r1
+31
+IWle;]4^k5gGZ7:L@JP0nD0
+w1389108833
+8/home/gongchen/multiplier_test/rtl/multiplier.v
+F/home/gongchen/multiplier_test/rtl/multiplier.v
+L0 17
+OE;L;6.2e;35
+o-work work
+vtb
+VV@Xn<HnSRM[I5c1?BH]3a3
+r1
+31
+I^?fL_T[ZK?leOi7OH=E2Q2
+w1389100347
+8/home/gongchen/multiplier_test/testbench/tb.v
+F/home/gongchen/multiplier_test/testbench/tb.v
+L0 2
+OE;L;6.2e;35
+o-work work

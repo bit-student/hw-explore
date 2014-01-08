@@ -1,0 +1,15 @@
+/home/gongchen/multiplier_test/rtl/multiplier.v {1 {vlog -work work -vopt /home/gongchen/multiplier_test/rtl/multiplier.v
+Model Technology ModelSim SE vlog 6.2e Compiler 2006.11 Nov 16 2006
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} /home/gongchen/multiplier_test/testbench/tb.v {1 {vlog -work work -vopt /home/gongchen/multiplier_test/testbench/tb.v
+Model Technology ModelSim SE vlog 6.2e Compiler 2006.11 Nov 16 2006
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

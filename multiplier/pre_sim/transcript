@@ -1,0 +1,75 @@
+# //  ModelSim SE 6.2e Nov 16 2006 Linux 2.6.32-358.23.2.el6.x86_64
+# //
+# //  Copyright 2006 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project mult_test
+# Compile of multiplier.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+do ./tcl/run.do
+# Cannot open macro file: ./tcl/run.do
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying /home/gongchen/multiplier_test/pre_sim/mult_test.mpf
+# Model Technology ModelSim SE vlog 6.2e Compiler 2006.11 Nov 16 2006
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# Model Technology ModelSim SE vlog 6.2e Compiler 2006.11 Nov 16 2006
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# vsim work.tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.multiplier(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'multiplier' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tb/inst_multiplier
+# ** Error: (vish-4014) No objects found matching '/tb/inst_multiplier/a_q'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/tb/inst_multiplier/b_q'.
+# Executing ONERROR command at macro ./wave.do line 9
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying /home/gongchen/multiplier_test/pre_sim/mult_test.mpf
+# Model Technology ModelSim SE vlog 6.2e Compiler 2006.11 Nov 16 2006
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# Model Technology ModelSim SE vlog 6.2e Compiler 2006.11 Nov 16 2006
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# vsim work.tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb(fast)
+# Loading work.multiplier(fast)
+# ** Warning: (vsim-3009) [TSCALE] - Module 'multiplier' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tb/inst_multiplier
+# ** Error: (vish-4014) No objects found matching '/tb/inst_multiplier/a_q'.
+# Executing ONERROR command at macro ./wave.do line 8
+# ** Error: (vish-4014) No objects found matching '/tb/inst_multiplier/b_q'.
+# Executing ONERROR command at macro ./wave.do line 9
+# WLF Error: Bad initial WLF parcel. WLF file is corrupt.
+# Cannot open file: /home/gongchen/multiplier_test/pre_sim/run.do
+# Compile of multiplier.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.tb
+# vsim -novopt work.tb 
+# Refreshing work.tb
+# Loading work.tb
+# Refreshing work.multiplier
+# Loading work.multiplier
+# ** Warning: (vsim-3009) [TSCALE] - Module 'multiplier' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /tb/inst_multiplier
